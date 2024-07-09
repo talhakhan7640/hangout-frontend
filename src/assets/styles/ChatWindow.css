@@ -1,0 +1,219 @@
+/* .handle--message input{
+  height: 3rem;
+}
+.handle--message form button {
+  height: 3rem;
+} */
+
+
+/* .chat-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 20px;
+  background-color: #36393f;
+  color: #dcddde;
+} */
+
+/* .chat-messages {
+  flex: 1;
+  overflow-y: auto;
+  padding: 10px;
+}
+
+.chat-message {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.profile-circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.message-content {
+  /* background-color: #2f3136; 
+  /* border-radius: 8px; 
+  /* padding: 10px; 
+  max-width: 70%;
+}
+
+.message-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0px;
+}
+
+.sender-name {
+  font-weight: bold;
+  color: #7289da;
+  margin-right: 10px;
+}
+
+.message-time {
+  font-size: 0.75em;
+  color: #72767d;
+}
+
+.message-text {
+  font-size: 1em;
+  color: #dcddde;
+} */
+
+.message--container {
+  height: 100vh;
+  background-color: #1E1E1E;
+ 
+}
+
+
+.hamburger--icon {
+  color: whitesmoke;
+  background-color: white;
+  font-size: 22px;
+}
+
+.search--message input {
+  width: 90%;
+  background-color: #333333;
+  /* height: 50px; */
+  height: 100%;
+  outline: none;
+  font-size: 16px;
+}
+.search--message input::placeholder{
+  font-size: 16px;
+  font-style: italic;
+}
+
+.message--input .message--field input {
+  height: 50px;
+  background-color: #333333 !important;
+  font-size: 16px;
+  outline: none;
+  border: none;
+}
+
+.message--field input::placeholder{
+  font-style: italic;
+  font-size: 16px;
+}
+
+
+.message--field {
+  position: relative;
+} */
+
+.emoji-picker-icon {
+  font-size: 1.5rem; /* Adjust the size as needed  */
+}
+
+input:focus + .emoji-picker-icon + #emoji-picker,
+.emoji-picker-icon:hover + #emoji-picker {
+  display: block;
+}
+
+.emoji--picker {
+  background: transparent;
+}
+
+ .message--field {
+  position: relative;
+}
+
+.emoji-picker-icon {
+  font-size: 1.5rem; /* Adjust the size as needed */
+} 
+
+.emoji-picker-container {
+  background: transparent;
+}
+
+
+
+
+
+
+
+
+/* 
+.message-input {
+  position: relative;
+}
+
+.message-field {
+  position: relative;
+}
+
+.input-container {
+  position: relative;
+  width: 100%;
+}
+
+.file-attach-icon {
+  position: absolute;
+  left: 0.75rem;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 1.25rem;
+  cursor: pointer;
+}
+
+.emoji-picker-icon {
+  position: absolute;
+  right: 0.75rem;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.message--input {
+  background-color: #333333;
+  border: none;
+  outline: none;
+  color: white;
+  height: 50px;
+}
+
+.emoji-picker-container {
+  position: absolute;
+  right: 0;
+  bottom: 100%;
+  margin-bottom: 0.5rem;
+}
+
+.file-preview-container {
+  position: absolute;
+  bottom: 100%;
+  width: 40%;
+  margin-bottom: 0.5rem;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #333333;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.file-preview-image {
+  max-width: 50%;
+  max-height: 50%;
+  object-fit: cover;
+  border-radius: 0.5rem;
+}
+
+.remove-file-button {
+  /* background: red; */
+  /* color: white; */
+  /* border: none; */
+  /* border-radius: 50%; */
+  /* cursor: pointer; */
+  /* font-size: 14px; */
+  /* padding: 2px 6px; */
+  /* margin-left: 0.5rem; */
+/* }  */
